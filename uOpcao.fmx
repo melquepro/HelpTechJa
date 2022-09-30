@@ -1,0 +1,17 @@
+object FrmMenu: TFrmMenu
+  Left = 0
+  Top = 0
+  BiDiMode = bdRightToLeftNoAlign
+  BorderIcons = []
+  BorderStyle = None
+  ClientHeight = 508
+  ClientWidth = 274
+  Fill.Color = xFF2D2A2A
+  Fill.Kind = Solid
+  Position = ScreenCenter
+  StyleBook = FrmPrincipal.StyleBook1
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+end

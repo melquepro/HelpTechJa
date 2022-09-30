@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/10/07 18:22:33.000.122,=C:\Users\OSPike-PC\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/07 19:30:18.000.642,=C:\Users\OSPike-PC\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/09 19:46:57.000.856,=C:\Users\OSPike-PC\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/12 23:10:14.000.653,=C:\Users\OSPike-PC\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/13 23:28:41.000.938,=C:\Users\OSPike-PC\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/12/20 13:36:55.000.647,=C:\Users\OSPike-PC\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/12/20 13:37:49.000.217,C:\Users\OSPike-PC\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\OSPike-PC\Desktop\Nova pasta\uPrincipal.fmx</Transaction>
+    <Transaction>2015/12/20 13:37:49.000.217,C:\Users\OSPike-PC\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\OSPike-PC\Desktop\Nova pasta\uPrincipal.pas</Transaction>
+    <Transaction>2015/12/20 13:37:57.000.745,C:\Users\OSPike-PC\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\OSPike-PC\Desktop\Nova pasta\HelpTechJa.dproj</Transaction>
+    <Transaction>2015/12/21 18:54:15.000.044,=C:\Users\OSPike-PC\Desktop\HelpTechJá\uBuscarLoja.pas</Transaction>
+    <Transaction>2015/12/21 18:54:16.000.839,=C:\Users\OSPike-PC\Desktop\HelpTechJá\uOpcao.pas</Transaction>
+    <Transaction>2015/12/21 18:54:16.000.714,=C:\Users\OSPike-PC\Desktop\HelpTechJá\uLocaLoja.pas</Transaction>
+    <Transaction>2015/12/21 18:54:16.000.648,=C:\Users\OSPike-PC\Desktop\HelpTechJá\uDM.pas</Transaction>
+    <Transaction>2015/12/21 18:54:16.000.906,=C:\Users\OSPike-PC\Desktop\HelpTechJá\uSessao.pas</Transaction>
+    <Transaction>2015/12/21 18:54:16.000.214,=C:\Users\OSPike-PC\Desktop\HelpTechJá\uCadCliente.pas</Transaction>
+    <Transaction>2015/12/21 18:54:16.000.793,=C:\Users\OSPike-PC\Desktop\HelpTechJá\uLogin.pas</Transaction>
+    <Transaction>2015/12/25 21:43:59.000.742,=C:\Users\OSPike-PC\Desktop\HelpTechJá\Unit1.pas</Transaction>
+    <Transaction>2015/12/25 21:44:33.000.624,C:\Users\OSPike-PC\Desktop\HelpTechJá\Unit1.fmx=C:\Users\OSPike-PC\Desktop\HelpTechJá\uEmpresa.fmx</Transaction>
+    <Transaction>2015/12/25 21:44:33.000.624,C:\Users\OSPike-PC\Desktop\HelpTechJá\Unit1.pas=C:\Users\OSPike-PC\Desktop\HelpTechJá\uEmpresa.pas</Transaction>
+    <Transaction>2015/12/25 21:49:24.000.260,=C:\Users\OSPike-PC\Desktop\HelpTechJá\Unit1.pas</Transaction>
+    <Transaction>2015/12/25 21:49:57.000.879,C:\Users\OSPike-PC\Desktop\HelpTechJá\Unit1.fmx=C:\Users\OSPike-PC\Desktop\HelpTechJá\uContaCliente.fmx</Transaction>
+    <Transaction>2015/12/25 21:49:57.000.879,C:\Users\OSPike-PC\Desktop\HelpTechJá\Unit1.pas=C:\Users\OSPike-PC\Desktop\HelpTechJá\uContaCliente.pas</Transaction>
+  </Transactions>
+	<MobileDevice>emulator-5554</MobileDevice>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="Super_Android"/>
+	</ActiveMobileDevice>
+</BorlandProject>

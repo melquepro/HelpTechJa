@@ -1,0 +1,245 @@
+object FrmCadCliente: TFrmCadCliente
+  Left = 0
+  Top = 0
+  Caption = 'Cadastro de Clientes'
+  ClientHeight = 410
+  ClientWidth = 264
+  StyleBook = FrmPrincipal.StyleBook1
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ToolBar1: TToolBar
+    Size.Width = 264.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object BtnSair: TSpeedButton
+      Align = Left
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'priortoolbutton'
+      OnClick = BtnSairClick
+    end
+    object Label1: TLabel
+      Align = Center
+      AutoSize = True
+      Size.Width = 111.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxheaderlabel'
+      TextSettings.WordWrap = False
+      Text = 'Cadastrar-se'
+    end
+  end
+  object Label3: TLabel
+    Anchors = [akLeft, akRight, akBottom]
+    AutoSize = True
+    StyledSettings = [Family, Style]
+    Position.X = 29.000000000000000000
+    Position.Y = 410.000000000000000000
+    Size.Width = 213.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.FontColor = claWhite
+    TextSettings.WordWrap = False
+    Text = 'Voc'#234' j'#225' '#233' usu'#225'rio? Iniciar sess'#227'o.'
+    OnClick = Label3Click
+  end
+  object Toast1: TToast
+    AppearanceDuration = 1
+    DisappearanceDuration = 1000
+    ToastBoxStrokeColor = claNull
+    TextColor = claBlack
+    ToastBoxColor = claGray
+    ToastBoxStrokeDash = Solid
+    TextAlign = Center
+    Duration = 1000
+    Opacity = 1.000000000000000000
+    OptimalWidth = True
+    ToastBoxAlign = Center
+    ToastBoxHeight = 40.000000000000000000
+    ToastBoxStrokeThickness = 1.000000000000000000
+    ToastBoxWidth = 180.000000000000000000
+    WordWrap = True
+    Left = 112
+    Top = 104
+  end
+  object ListBox1: TListBox
+    Align = Client
+    Size.Width = 264.000000000000000000
+    Size.Height = 362.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 22
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 264.000000000000000000
+    Viewport.Height = 362.000000000000000000
+    object EdtRepSenha: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Anchors = [akLeft, akTop, akRight]
+      TabOrder = 21
+      Position.X = 8.000000000000000000
+      Position.Y = 267.000000000000000000
+      Size.Width = 243.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label4: TLabel
+      Anchors = [akLeft, akTop, akRight]
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 8.000000000000000000
+      Position.Y = 247.000000000000000000
+      Size.Width = 127.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.VertAlign = Leading
+      TextSettings.WordWrap = False
+      Text = 'Senha (novamente)'
+    end
+    object Label7: TLabel
+      Anchors = [akLeft, akTop, akRight]
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 7.000000000000000000
+      Position.Y = 187.000000000000000000
+      Size.Width = 44.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.VertAlign = Leading
+      TextSettings.WordWrap = False
+      Text = 'Senha'
+    end
+    object EdtSenha: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Anchors = [akLeft, akTop, akRight]
+      TabOrder = 18
+      Password = True
+      Position.X = 8.000000000000000000
+      Position.Y = 209.000000000000000000
+      Size.Width = 243.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object EdtEmail: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Anchors = [akLeft, akTop, akRight]
+      TabOrder = 17
+      KeyboardType = EmailAddress
+      Position.X = 8.000000000000000000
+      Position.Y = 150.000000000000000000
+      Size.Width = 243.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label2: TLabel
+      Anchors = [akLeft, akTop, akRight]
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 7.000000000000000000
+      Position.Y = 130.000000000000000000
+      Size.Width = 39.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.VertAlign = Leading
+      TextSettings.WordWrap = False
+      Text = 'Email'
+    end
+    object EdtFone: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Anchors = [akLeft, akTop, akRight]
+      TabOrder = 16
+      KeyboardType = PhonePad
+      Position.X = 8.000000000000000000
+      Position.Y = 95.000000000000000000
+      Size.Width = 243.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label6: TLabel
+      Anchors = [akLeft, akTop, akRight]
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 6.000000000000000000
+      Position.Y = 73.000000000000000000
+      Size.Width = 106.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.VertAlign = Leading
+      TextSettings.WordWrap = False
+      Text = 'Telefone Celular'
+    end
+    object EdtNome: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Anchors = [akLeft, akTop, akRight]
+      TabOrder = 15
+      Position.X = 8.000000000000000000
+      Position.Y = 37.000000000000000000
+      Size.Width = 243.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label5: TLabel
+      Anchors = [akLeft, akTop, akRight]
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 6.000000000000000000
+      Position.Y = 18.000000000000000000
+      Size.Width = 42.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.VertAlign = Leading
+      TextSettings.WordWrap = False
+      Text = 'Nome'
+    end
+    object SpeedButton1: TSpeedButton
+      Anchors = [akLeft, akBottom]
+      Position.X = 200.000000000000000000
+      Position.Y = 311.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 37.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'buttonstyle'
+      Text = '>'
+      OnClick = SpeedButton1Click
+    end
+  end
+  object QCadCliente: TUniQuery
+    UpdateTransaction = DM.Transaction
+    Left = 168
+    Top = 160
+    object QCadClienteNOME: TStringField
+      FieldName = 'NOME'
+      Size = 30
+    end
+    object QCadClienteSOBRENOME: TStringField
+      FieldName = 'SOBRENOME'
+      Size = 30
+    end
+    object QCadClienteEMAIL: TStringField
+      FieldName = 'EMAIL'
+      Size = 80
+    end
+    object QCadClienteSENHA: TStringField
+      FieldName = 'SENHA'
+      Size = 25
+    end
+    object QCadClienteFOTO: TBlobField
+      FieldName = 'FOTO'
+    end
+  end
+  object fgActivityDialog1: TfgActivityDialog
+    Left = 192
+    Top = 88
+  end
+end

@@ -1,0 +1,14 @@
++===================================+
+| Domain: Cpanel.helptechja.com
+| Ip: 201.46.53.148 (n)
+| UserName: helptechja
+| PassWord: MP(l_nS=C]n6
+| NameServer1: ns1.theangelz.com.br
+| NameServer2: ns2.theangelz.com.br
+| Contact Email: melque@theangelz.com.br
++===================================+
+
+Banco de Dados
+Ip: mysql.helptechja.com
+login: root
+senha: 130694

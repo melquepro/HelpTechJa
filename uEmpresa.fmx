@@ -1,0 +1,12 @@
+object FrmEmpresa: TFrmEmpresa
+  Left = 0
+  Top = 0
+  Caption = 'Empresa'
+  ClientHeight = 341
+  ClientWidth = 364
+  StyleBook = FrmPrincipal.StyleBook1
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+end

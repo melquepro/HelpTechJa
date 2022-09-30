@@ -1,0 +1,155 @@
+object FrmLogin: TFrmLogin
+  Left = 0
+  Top = 0
+  Caption = 'Iniciar Sess'#227'o'
+  ClientHeight = 471
+  ClientWidth = 303
+  Position = Default
+  StyleBook = FrmPrincipal.StyleBook1
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ToolBar1: TToolBar
+    Size.Width = 303.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Button1: TButton
+      Align = Left
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'priortoolbutton'
+      TabOrder = 0
+      Text = 'Voltar'
+      OnClick = Button1Click
+    end
+    object Label1: TLabel
+      Align = Center
+      AutoSize = True
+      StyledSettings = [Family, Style]
+      Size.Width = 131.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.WordWrap = False
+      Text = 'Iniciar sess'#227'o'
+    end
+  end
+  object Label2: TLabel
+    Position.X = 4.000000000000000000
+    Position.Y = 81.000000000000000000
+    Size.Width = 82.000000000000000000
+    Size.Height = 28.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Email:'
+  end
+  object Label3: TLabel
+    Position.X = 4.000000000000000000
+    Position.Y = 143.000000000000000000
+    Size.Width = 82.000000000000000000
+    Size.Height = 28.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Senha:'
+  end
+  object BtnIniciar: TButton
+    Anchors = [akLeft, akTop, akRight]
+    ModalResult = 11
+    Position.X = 4.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 296.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = 'Iniciar sess'#227'o'
+    OnClick = BtnIniciarClick
+  end
+  object Label4: TLabel
+    Anchors = [akRight]
+    AutoSize = True
+    StyledSettings = [Family, Style]
+    Position.X = 162.000000000000000000
+    Position.Y = 211.790618896484400000
+    Size.Width = 138.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.WordWrap = False
+    Text = 'Esqueci minha senha'
+  end
+  object StatusBar1: TStatusBar
+    Position.Y = 449.000000000000000000
+    ShowSizeGrip = True
+    Size.Width = 303.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    OnClick = StatusBar1Click
+    object Label5: TLabel
+      Align = Center
+      AutoSize = True
+      StyledSettings = [Family, Size, Style]
+      Size.Width = 306.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = claWhite
+      TextSettings.WordWrap = False
+      Text = 'Voc'#234' '#233' novo aqui? Cadastre-se gr'#225'tis'
+      OnClick = Label5Click
+    end
+  end
+  object Toast1: TToast
+    AppearanceDuration = 1
+    DisappearanceDuration = 300
+    ToastBoxStrokeColor = claNull
+    TextColor = claBlack
+    ToastBoxColor = claGray
+    ToastBoxStrokeDash = Solid
+    TextAlign = Center
+    Duration = 3000
+    Opacity = 1.000000000000000000
+    OptimalWidth = False
+    ToastBoxAlign = Center
+    ToastBoxHeight = 40.000000000000000000
+    ToastBoxStrokeThickness = 1.000000000000000000
+    ToastBoxWidth = 180.000000000000000000
+    WordWrap = True
+    Left = 80
+    Top = 208
+  end
+  object EdtEmail: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Anchors = [akLeft, akRight]
+    TabOrder = 17
+    Position.X = 8.000000000000000000
+    Position.Y = 109.000000000000000000
+    Size.Width = 284.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    TextPrompt = 'E-mail'
+  end
+  object EdtSenha: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Anchors = [akLeft, akRight]
+    TabOrder = 18
+    Password = True
+    Position.X = 8.000000000000000000
+    Position.Y = 172.000000000000000000
+    Size.Width = 284.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    TextPrompt = 'Senha'
+  end
+  object qryLogin: TUniQuery
+    Transaction = DM.Transaction
+    UpdateTransaction = DM.Transaction
+    Left = 152
+    Top = 152
+  end
+  object fgActivityDialog1: TfgActivityDialog
+    Left = 144
+    Top = 72
+  end
+end
